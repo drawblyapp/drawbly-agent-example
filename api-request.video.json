@@ -1,0 +1,308 @@
+{
+  "kind": "drawbly-video",
+  "version": 1,
+  "title": "API request flow",
+  "canvas": [
+    1200,
+    720
+  ],
+  "duration": 21,
+  "framing": "original",
+  "events": [
+    {
+      "at": 0,
+      "duration": 0,
+      "object": {
+        "type": "text",
+        "color": "#292d32",
+        "text": "One request. A clear response.",
+        "x": 64,
+        "y": 48,
+        "fontSize": 52,
+        "fontFamily": "sans"
+      }
+    },
+    {
+      "at": 0,
+      "duration": 0,
+      "object": {
+        "type": "text",
+        "color": "#667064",
+        "text": "API request flow · a successful read",
+        "x": 66,
+        "y": 119,
+        "fontSize": 27,
+        "fontFamily": "sans"
+      }
+    },
+    {
+      "at": 1,
+      "duration": 0,
+      "object": {
+        "type": "text",
+        "color": "#292d32",
+        "text": "Client",
+        "x": 75,
+        "y": 225,
+        "fontSize": 40,
+        "fontFamily": "sans"
+      }
+    },
+    {
+      "at": 1,
+      "duration": 0,
+      "object": {
+        "type": "text",
+        "color": "#667064",
+        "text": "web or mobile app",
+        "x": 75,
+        "y": 280,
+        "fontSize": 25,
+        "fontFamily": "sans"
+      }
+    },
+    {
+      "at": 1.5,
+      "duration": 0,
+      "object": {
+        "type": "text",
+        "color": "#292d32",
+        "text": "API",
+        "x": 500,
+        "y": 225,
+        "fontSize": 40,
+        "fontFamily": "sans"
+      }
+    },
+    {
+      "at": 1.5,
+      "duration": 0,
+      "object": {
+        "type": "text",
+        "color": "#667064",
+        "text": "your service",
+        "x": 500,
+        "y": 280,
+        "fontSize": 25,
+        "fontFamily": "sans"
+      }
+    },
+    {
+      "at": 2,
+      "duration": 0,
+      "object": {
+        "type": "text",
+        "color": "#292d32",
+        "text": "Data store",
+        "x": 920,
+        "y": 225,
+        "fontSize": 40,
+        "fontFamily": "sans"
+      }
+    },
+    {
+      "at": 2,
+      "duration": 0,
+      "object": {
+        "type": "text",
+        "color": "#667064",
+        "text": "saved orders",
+        "x": 920,
+        "y": 280,
+        "fontSize": 25,
+        "fontFamily": "sans"
+      }
+    },
+    {
+      "at": 4,
+      "duration": 0,
+      "object": {
+        "type": "text",
+        "color": "#306ad2",
+        "text": "1  GET /orders/42",
+        "x": 250,
+        "y": 170,
+        "fontSize": 26,
+        "fontFamily": "sans"
+      }
+    },
+    {
+      "at": 4,
+      "duration": 1,
+      "object": {
+        "type": "arrow",
+        "color": "#306ad2",
+        "width": 5,
+        "points": [
+          [
+            230,
+            239
+          ],
+          [
+            350,
+            224
+          ],
+          [
+            470,
+            237
+          ]
+        ],
+        "smooth": false
+      }
+    },
+    {
+      "at": 7,
+      "duration": 0,
+      "object": {
+        "type": "text",
+        "color": "#306ad2",
+        "text": "2  Read order",
+        "x": 695,
+        "y": 170,
+        "fontSize": 26,
+        "fontFamily": "sans"
+      }
+    },
+    {
+      "at": 7,
+      "duration": 1,
+      "object": {
+        "type": "arrow",
+        "color": "#306ad2",
+        "width": 5,
+        "points": [
+          [
+            625,
+            239
+          ],
+          [
+            762,
+            224
+          ],
+          [
+            890,
+            238
+          ]
+        ],
+        "smooth": false
+      }
+    },
+    {
+      "at": 10,
+      "duration": 1,
+      "object": {
+        "type": "arrow",
+        "color": "#16845d",
+        "width": 5,
+        "points": [
+          [
+            909,
+            370
+          ],
+          [
+            775,
+            400
+          ],
+          [
+            638,
+            377
+          ]
+        ],
+        "smooth": false
+      }
+    },
+    {
+      "at": 10,
+      "duration": 0,
+      "object": {
+        "type": "text",
+        "color": "#16845d",
+        "text": "3  Order data",
+        "x": 704,
+        "y": 424,
+        "fontSize": 26,
+        "fontFamily": "sans"
+      }
+    },
+    {
+      "at": 13,
+      "duration": 1,
+      "object": {
+        "type": "arrow",
+        "color": "#16845d",
+        "width": 5,
+        "points": [
+          [
+            485,
+            370
+          ],
+          [
+            361,
+            400
+          ],
+          [
+            230,
+            377
+          ]
+        ],
+        "smooth": false
+      }
+    },
+    {
+      "at": 13,
+      "duration": 0,
+      "object": {
+        "type": "text",
+        "color": "#16845d",
+        "text": "4  HTTP response",
+        "x": 250,
+        "y": 424,
+        "fontSize": 26,
+        "fontFamily": "sans"
+      }
+    },
+    {
+      "at": 16,
+      "duration": 0,
+      "object": {
+        "type": "text",
+        "color": "#292d32",
+        "text": "The response returns through the API.",
+        "x": 75,
+        "y": 540,
+        "fontSize": 34,
+        "fontFamily": "sans"
+      }
+    },
+    {
+      "at": 16,
+      "duration": 0,
+      "object": {
+        "type": "text",
+        "color": "#667064",
+        "text": "Example: 200 OK + order JSON",
+        "x": 75,
+        "y": 594,
+        "fontSize": 28,
+        "fontFamily": "sans"
+      }
+    }
+  ],
+  "captions": [
+    {
+      "at": 0,
+      "end": 7,
+      "text": "Start with the client, API and data store."
+    },
+    {
+      "at": 7,
+      "end": 14,
+      "text": "The client requests an order. The API reads it."
+    },
+    {
+      "at": 14,
+      "end": 21,
+      "text": "Order data returns to the API, then to the client."
+    }
+  ]
+}
